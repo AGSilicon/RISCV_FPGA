@@ -1,0 +1,35 @@
+# Simulation executables
+sim/*
+!sim/.gitkeep
+
+# Waveform files
+wave/*
+!wave/.gitkeep
+
+# Logs and temporary files
+*.log
+*.vcd
+*.fst
+*.out
+*.o
+*.tmp
+
+# FPGA generated files
+*.bit
+*.bin
+*.mcs
+*.ngc
+*.ncd
+*.pcf
+*.par
+*.bld
+*.xise~
+*.ise
+*.cmd_log
+*.srp
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
